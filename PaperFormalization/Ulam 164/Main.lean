@@ -480,6 +480,7 @@ theorem no_universal_k : ¬ ∃ k : ℝ, UniversalBound k := by
   have hescape : EscapesWithin ⌊k / ε⌋₊ (E ε) (T ε) :=
     hk.2 ε (E ε) (T ε) hadm
   exact not_escapesWithin_any hε hsmall ⌊k / ε⌋₊ hescape
+#print axioms no_universal_k
 
 end
 
