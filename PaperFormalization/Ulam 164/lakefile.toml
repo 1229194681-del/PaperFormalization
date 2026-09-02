@@ -1,10 +1,12 @@
-name = "Ulam 164"
+name = "Ulam164"
 version = "0.1.0"
-defaultTargets = ["ulam 164"]
+defaultTargets = ["Ulam164"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.33.1"
 
 [[lean_lib]]
-name = "«Ulam 164»"
-
-[[lean_exe]]
-name = "ulam 164"
-root = "Main"
+name = "Ulam164"
+roots = ["Main"]
