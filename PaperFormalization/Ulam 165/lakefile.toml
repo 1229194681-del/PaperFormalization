@@ -1,0 +1,10 @@
+name = "Ulam 165"
+version = "0.1.0"
+defaultTargets = ["ulam 165"]
+
+[[lean_lib]]
+name = "«Ulam 165»"
+
+[[lean_exe]]
+name = "ulam 165"
+root = "Main"
